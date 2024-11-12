@@ -16,26 +16,38 @@
     <h2>Student Information Form</h2>
 
     <form action="submit_form.php" method="POST">
+
+    <div>
         <label for="firstname">First Name:</label>
         <input type="text" id="firstname" name="firstname" required>
+    </div>
 
+    <div>
         <label for="middlename">Middle Name:</label>
         <input type="text" id="middlename" name="middlename">
+    </div>
 
+    <div>
         <label for="lastname">Last Name:</label>
         <input type="text" id="lastname" name="lastname" required>
-
+    </div>
+ 
+    <div>
         <label for="age">Age:</label>
         <input type="number" id="age" name="age" required>
+    </div>
 
+    <div>
         <label for="address">Address:</label>
         <input type="text" id="address" name="address" required>
+    </div>
 
-        <label for="course">Course:</label>
-        <input type="text" id="course" name="course" required>
+    <div>
+        <label for="course">Course & Section:</label>
+        <input type="text" id="course_section" name="course_section" required>
+    </div>
 
-        <label for="section">Section:</label>
-        <input type="text" id="section" name="section" required>
+      
 
         <input type="submit" value="Submit">
     </form>
